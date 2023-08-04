@@ -1,0 +1,240 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg: #62629c;
+  --text-color: #fff;
+  --text2-color: #e0e0e6;
+  --text3-color: #b0d0e6e5;
+  --line-color: #5a5a5e;
+  --secondary-color: #2e272733;
+  --box1-color: #30556e7e;
+  --box2-color: #38383894;
+  --box3-color: #1e1e1e7c;
+}
+
+body {
+  background-image: url(../images/wallpaperflare.com_wallpaper\ \(21\).jpg);
+  background-size: cover;
+  background-position: center center;
+  color: var(--text-color);
+  font-family: "Rubik", sans-serif;
+}
+
+.overlay {
+  background-color: #14111165;
+  min-height: 100vh;
+}
+
+.num {
+  font-family: "Changa", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* < !-- colors section --> */
+
+.s-color {
+  color: black;
+}
+
+.t2-color {
+  color: var(--text2-color);
+}
+
+.t3-color {
+  color: var(--text3-color);
+}
+
+.footer-color {
+  color: var(--secondary-color);
+}
+
+.box-one-bg {
+  background-color: var(--secondary-color);
+}
+
+.box-one-hd {
+  background-color: var(--box1-color);
+}
+
+.box-two-bg {
+  background-color: var(--box2-color);
+}
+
+/* < !-- NavBar section --> */
+
+.logo {
+  margin-top: 8px !important;
+}
+
+/* < !-- search section --> */
+
+#searchIcon {
+  left: 1rem;
+  top: 1.2rem;
+}
+
+#searchCity {
+  background-color: var(--box3-color);
+  border-color: transparent;
+  color: #fff;
+  border-radius: 2rem;
+  padding-left: 3rem;
+
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+
+#searchCity::placeholder {
+  color: var(--text2-color);
+}
+
+/* < !-- location section --> */
+
+#userLocation {
+  font-size: 0.8rem;
+}
+
+/* < !-- cards section --> */
+
+.main-card {
+  min-height: 21rem;
+  cursor: pointer;
+  transition: filter, transform, 0.5s;
+  -webkit-transition: filter, transform, 0.5s;
+  -moz-transition: filter, transform, 0.5s;
+  -ms-transition: filter, transform, 0.5s;
+  -o-transition: filter, transform, 0.5s;
+}
+
+.main-card:hover {
+  filter: brightness(1.06);
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  -webkit-filter: brightness(1.06);
+}
+
+.card-head {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.card-body {
+  margin-top: 2.2rem;
+}
+
+.day-time {
+  font-size: 1rem;
+}
+
+.main-degree {
+  font-size: 6rem;
+}
+
+
+.forecast-con {
+  font-size: 0.8rem;
+}
+
+
+
+/* * Footer section */
+
+
+.site-footer .subscribe-form {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.site-footer .subscribe-form input[type="text"] {
+  padding: 20px 100px 20px 20px;
+  background: #1e202b;
+  width: 100%;
+  color: white;
+}
+
+.site-footer .subscribe-form input[type="submit"] {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+}
+.site-footer {
+  padding: 50px 0;
+}
+
+.site-footer .social-links a {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #4243448c;
+  color: white;
+  text-align: center;
+  line-height: 2;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  font-size: 20px;
+  font-size: 1.4285714286em;
+}
+
+.site-footer .social-links a:hover {
+  background: #009ad8;
+  color: white;
+}
+
+
+form input,
+form textarea,
+form select {
+  outline: none !important;
+  border: none !important;
+  padding: 10px !important;
+  border-radius: 30px !important;
+  -webkit-border-radius: 30px !important;
+  -moz-border-radius: 30px !important;
+  -ms-border-radius: 30px !important;
+  -o-border-radius: 30px !important;
+}
+
+form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+form textarea {
+  resize: vertical;
+}
+
+form input[type="submit"],
+form input[type="button"],
+form button,
+form input[type="reset"] {
+  border: none;
+  background: #009ad8;
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+}
+
+#footer-text {
+  background-color: var(--box3-color) !important;
+}
+
+#footer-text::placeholder {
+  color: var(--text2-color);
+}
+
